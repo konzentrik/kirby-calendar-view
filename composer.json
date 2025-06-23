@@ -1,36 +1,37 @@
 {
-  "name": "konzentrik/calendar-view",
-  "type": "kirby-plugin",
-  "license": "MIT",
-  "require-dev": {
-    "getkirby/cms": "^4"
-  },
-  "require": {
-    "getkirby/composer-installer": "^1.2",
-    "php": ">=8.0.0"
-  },
-  "autoload": {
-    "psr-4": {
-      "konzentrik\\CalendarView\\": "lib/"
+    "name": "konzentrik/calendar-view",
+    "type": "kirby-plugin",
+    "license": "MIT",
+    "require-dev": {
+        "getkirby/cms": "^4"
     },
-    "classmap": [
-      "lib"
-    ]
-  },
-  "config": {
-    "optimize-autoloader": true,
-    "allow-plugins": {
-      "getkirby/composer-installer": true
-    }
-  },
-  "authors": [
-    {
-      "name": "Maurice Renck",
-      "email": "maurice.renck@konzentrik.de"
+    "require": {
+        "getkirby/composer-installer": "^1.2",
+        "php": ">=8.0.0"
     },
-    {
-      "name": "Mark Schmeiser",
-      "email": "mark.schmeiser@konzentrik.de"
-    }
-  ]
+    "autoload": {
+        "psr-4": {
+            "konzentrik\\CalendarView\\": "lib/"
+        },
+        "classmap": [
+            "lib"
+        ]
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "allow-plugins": {
+            "getkirby/composer-installer": true
+        }
+    },
+    "authors": [
+        {
+            "name": "Maurice Renck",
+            "email": "maurice.renck@konzentrik.de"
+        },
+        {
+            "name": "Mark Schmeiser",
+            "email": "mark.schmeiser@konzentrik.de"
+        }
+    ],
+    "version": "1.0.0"
 }
