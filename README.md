@@ -72,3 +72,9 @@ Please prefix every option with `konzentrik.calendarview.`.
 | `titleField`       | page title        | Set a field to use as title                                  |
 | `dateField`        | `date`            | Set a youd date field                                        |
 | `descriptionField` | `''`              | Set a field to use as description                            |
+
+## License
+
+Kirby Calendar View can be used in a limited free mode. In order to use the full featured version, you'll have to purchase a valid Kirby license & a valid plugin license.
+
+Copyright 2025 © konzentrik GmbH

@@ -1,37 +1,45 @@
 {
-    "name": "konzentrik/calendar-view",
-    "type": "kirby-plugin",
-    "license": "MIT",
-    "require-dev": {
-        "getkirby/cms": "^4"
+  "name": "konzentrik/calendar-view",
+  "description": "A Kirby CMS plugin to subscribe to scheduled articles as a calendar feed.",
+  "type": "kirby-plugin",
+  "license": "Commercial",
+  "version": "1.0.0",
+  "require-dev": {
+    "getkirby/cms": "^4"
+  },
+  "require": {
+    "getkirby/composer-installer": "^1.2",
+    "php": ">=8.0.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "konzentrik\\CalendarView\\": "lib/"
     },
-    "require": {
-        "getkirby/composer-installer": "^1.2",
-        "php": ">=8.0.0"
+    "classmap": [
+      "lib"
+    ]
+  },
+  "config": {
+    "optimize-autoloader": true,
+    "allow-plugins": {
+      "getkirby/composer-installer": true
+    }
+  },
+  "authors": [
+    {
+      "name": "Maurice Renck",
+      "email": "maurice.renck@konzentrik.de"
     },
-    "autoload": {
-        "psr-4": {
-            "konzentrik\\CalendarView\\": "lib/"
-        },
-        "classmap": [
-            "lib"
-        ]
-    },
-    "config": {
-        "optimize-autoloader": true,
-        "allow-plugins": {
-            "getkirby/composer-installer": true
-        }
-    },
-    "authors": [
-        {
-            "name": "Maurice Renck",
-            "email": "maurice.renck@konzentrik.de"
-        },
-        {
-            "name": "Mark Schmeiser",
-            "email": "mark.schmeiser@konzentrik.de"
-        }
-    ],
-    "version": "1.0.0"
+    {
+      "name": "Mark Schmeiser",
+      "email": "mark.schmeiser@konzentrik.de"
+    }
+  ],
+  "scripts": {
+    "test": "vendor/bin/phpunit --testdox --colors=always",
+    "build-test-package": "git archive HEAD -o calendar-view.zip --worktree-attributes",
+    "build-release": [
+      "composer install --no-dev --optimize-autoloader"
+    ]
+  }
 }
