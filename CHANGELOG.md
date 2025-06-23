@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/konzentrik/kirby-calendar-view/compare/v1.0.2...v1.0.3) (2025-06-23)
+
+
+### Bug Fixes
+
+* product id ([02243ef](https://github.com/konzentrik/kirby-calendar-view/commit/02243ef405d1dbfc657944fb2257f1100dfd2495))
+
 ## [1.0.2](https://github.com/konzentrik/kirby-calendar-view/compare/v1.0.1...v1.0.2) (2025-06-23)
 
 

@@ -3,7 +3,7 @@
     "description": "A Kirby CMS plugin to subscribe to scheduled articles as a calendar feed.",
     "type": "kirby-plugin",
     "license": "proprietary",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "require-dev": {
         "getkirby/cms": "^4"
     },
