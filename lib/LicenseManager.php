@@ -14,7 +14,7 @@ class LicenseManager
     {
         $this->licenseKey = option("konzentrik.calendarview.licenseKey", null);
         $this->lemonSqueezyStoreId = 189910;
-        $this->lemonSqueezyProductId = 557489;
+        $this->lemonSqueezyProductId = 557759;
     }
 
     public function isActivated()
