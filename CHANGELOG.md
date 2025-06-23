@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/konzentrik/kirby-calendar-view/compare/v1.0.0...v1.0.1) (2025-06-23)
+
+
+### Bug Fixes
+
+* license and release package ([063acac](https://github.com/konzentrik/kirby-calendar-view/commit/063acac1d88dc75a258b1fc6e6fdf7b1136962a4))
+
 # 1.0.0 (2025-06-23)
 
 
