@@ -1,0 +1,25 @@
+type: group
+fields:
+    webmentionsStatus:
+        label: Webmentions
+        type: toggle
+        default: true
+        width: 1/3
+    enableExternalPosting:
+        label: External Posting
+        type: toggle
+        default: true
+        width: 1/3
+    mastodonStatusUrl:
+        label: Mastodon URL
+        type: url
+        width: 1/3
+    blueskyStatusUrl:
+        label: Bluesky URL
+        type: url
+        width: 1/3
+    icSkipUrl:
+        label: Skip posting URL
+        type: toggle
+        default: false
+        width: 1/3

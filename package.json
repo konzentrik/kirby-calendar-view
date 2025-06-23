@@ -1,0 +1,13 @@
+{
+  "name": "calendar-view",
+  "version": "1.0.0",
+  "description": "A calendar view for Kirby",
+  "main": "index.js",
+  "author": "Maurice Renck",
+  "private": true,
+  "devDependencies": {
+    "@ambimax/semantic-release-composer": "github:ambimax/semantic-release-composer",
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/git": "^10.0.1"
+  }
+}

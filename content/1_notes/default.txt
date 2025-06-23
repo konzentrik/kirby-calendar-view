@@ -1,0 +1,25 @@
+Title: notes
+
+----
+
+Description: 
+
+----
+
+Textfield: 
+
+----
+
+Layouteditor: 
+
+----
+
+Blockeditor: 
+
+----
+
+Mastodonimage: 
+
+----
+
+Uuid: rktMbQ0wGeZrcFrj

@@ -1,0 +1,21 @@
+options:
+  changeSlug: false
+  update: true
+
+sections:
+  phpunit:
+    type: fields
+    fields:
+      date:
+        type: date
+        label: Date
+      description:
+        type: textarea
+        label: description
+      textfield:
+        type: textarea
+        label: Text
+  mediathek:
+    type: files
+  subpages:
+    type: pages
