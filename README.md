@@ -2,12 +2,20 @@
 
 Subscribe to a certain calendar URL and see all your planned and published posts in your default calendar app.
 
+![header](/assets/konzentrik-calendar-view.png)
+
 ## Installation
 
 Use one of these methods to install the plugin:
 
 - composer (recommended): `composer require konzentrik/kirby-calendar-view`
 - zip file: unzip [main.zip](https://github.com/konzentrik/kirby-calendar-view/releases/latest) as folder `site/plugins/kirby-calendar-view`
+
+## License
+
+Kirby Calendar View can be used in a limited free mode. In order to use the full featured version, you'll have to purchase a valid Kirby license & a valid plugin license.
+
+You can buy a license at [https://tools.konzentrik.de/](https://tools.konzentrik.de/#kirbyCalendarView).
 
 ## Usage
 
@@ -72,9 +80,5 @@ Please prefix every option with `konzentrik.calendarview.`.
 | `titleField`       | page title        | Set a field to use as title                                  |
 | `dateField`        | `date`            | Set a youd date field                                        |
 | `descriptionField` | `''`              | Set a field to use as description                            |
-
-## License
-
-Kirby Calendar View can be used in a limited free mode. In order to use the full featured version, you'll have to purchase a valid Kirby license & a valid plugin license.
 
 Copyright 2025 © konzentrik GmbH
