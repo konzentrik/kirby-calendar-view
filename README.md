@@ -2,13 +2,13 @@
 
 Transform your scheduled Kirby articles into a subscribable calendar feed.
 
+![header](/assets/konzentrik-calendar-view.png)
+
 - Plan Ahead – Transform your scheduled articles to a subscribable calendar
 - Subscribe Easily – Works with Google Calendar, Apple Calendar & more
 - No Sync Needed – Just copy the link and stay updated automatically
 - Content Overview – Keep track of upcoming posts at a glance
 - Stay Organized – Always know what’s scheduled to go live
-
-![header](/assets/konzentrik-calendar-view.png)
 
 ## Installation
 
