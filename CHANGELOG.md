@@ -1,3 +1,10 @@
+## [1.0.4](https://github.com/konzentrik/kirby-calendar-view/compare/v1.0.3...v1.0.4) (2025-07-18)
+
+
+### Bug Fixes
+
+* installation command README.md ([b744d76](https://github.com/konzentrik/kirby-calendar-view/commit/b744d76808541a752cac1d0cc9c62411d006bd21))
+
 ## [1.0.3](https://github.com/konzentrik/kirby-calendar-view/compare/v1.0.2...v1.0.3) (2025-06-23)
 
 
