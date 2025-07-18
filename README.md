@@ -14,7 +14,7 @@ Transform your scheduled Kirby articles into a subscribable calendar feed.
 
 Use one of these methods to install the plugin:
 
-- composer (recommended): `composer require konzentrik/kirby-calendar-view`
+- composer (recommended): `composer require konzentrik/calendar-view`
 - zip file: unzip [main.zip](https://github.com/konzentrik/kirby-calendar-view/releases/latest) as folder `site/plugins/kirby-calendar-view`
 
 ## License
